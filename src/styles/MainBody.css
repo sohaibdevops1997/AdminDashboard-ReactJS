@@ -1,0 +1,39 @@
+.main-body {
+    padding: 20px;
+  }
+  
+  .card-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-row {
+    display: flex;
+    justify-content: space-between; /* Adjust based on your design needs */
+    margin-bottom: 16px; /* Add space between rows */
+    margin-top:20px
+  }
+  
+  .card-row .card-component {
+    flex: 1 1 23%; /* Adjust card width and spacing */
+    margin: 0 8px; /* Add space between cards */
+  }
+  
+  .card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .table-container {
+    margin-top: 20px;
+  }
+
+  .form-container{
+    margin-top: 20px;
+  }
+
+  .validationForm-container{
+    margin-top: 20px;
+  }

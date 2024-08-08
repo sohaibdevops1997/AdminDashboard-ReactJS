@@ -1,0 +1,115 @@
+.navbar-vertical {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; 
+    width: 250px;
+    background-color: var(--navbar-background);
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .navbar-container {
+    display: flex;
+    flex-direction: column; 
+    height: 100%; 
+  }
+  
+  .navbar-vertical .navbar-brand {
+    margin-bottom: 20px; 
+  }
+  
+  .navbar-vertical .nav-link {
+    color: var(--text-color); 
+    margin-bottom: 10px; 
+    padding: 10px 15px; 
+    border-radius: 4px; 
+  }
+  
+  .navbar-vertical .nav-link:hover {
+    color: var(--primary-color); 
+    background-color: #2b3035; 
+  }
+
+  .nav {
+    width: 250px; /* Width of the sidebar */
+    background-color: var(--navbar-background); /* Background color for the sidebar */
+    padding: 20px; /* Padding around the sidebar */
+    border-right: 1px solid var(--border-color); /* Optional border */
+    height: 100vh; /* Full height */
+    position: fixed; /* Fixed positioning */
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style for individual Nav Links */
+  .nav-link {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center the text vertically */
+    padding: 12px 16px; /* Padding around each link */
+    border-radius: 8px; /* Rounded corners */
+    color: var(--nav-link-color); /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+    font-weight: 500; /* Font weight */
+    transition: background-color 0.3s, color 0.3s, padding-left 0.3s; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width:15rem;
+  }
+  
+  .child-nav-link {
+    background-color: #444242; /* Example background color */
+    box-shadow: none; /* Remove box shadow */
+    padding: 10px; /* Optional: add padding for better appearance */
+    border-radius: 4px; /* Optional: add border radius for rounded corners */
+  }
+  
+  /* Optional: Add hover effect for child navigation links */
+  .child-nav-link:hover {
+    background-color: rgba(28, 37, 49); /* Slightly different background color on hover */
+  }
+
+
+  /* Hover Effect for Nav Links */
+  .nav-link:hover, .nav-link.active {
+    background-color: var(--nav-link-hover-background); /* Background color on hover */
+    color: var(--nav-link-hover-color); /* Text color on hover */
+    padding-left: 24px; /* Indentation on hover */
+  }
+  
+  /* Optional: Style for icons within Nav Links */
+  .nav-link .bi {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 18px; /* Icon size */
+  }
+  
+  /* Active Link Style */
+  .nav-link.active {
+    font-weight: bold; /* Highlight active link */
+    background-color: var(--nav-link-active-background); /* Background color for the active link */
+    color: var(--nav-link-active-color); /* Text color for the active link */
+  }
+  
+  /* Optional: style for the ThemeSwitcher */
+  .theme-switcher-container {
+    margin-top: auto; /* Push to the bottom of the navbar */
+  }
+  
+
+  .nav-link .bi {
+    transition: transform 0.3s ease;
+  }
+  
+  /* Rotate icon when collapsed */
+  .nav-link .bi-chevron-up {
+    transform: rotate(180deg);
+  }
+  
+  .navbar-vertical .navbar-logo {
+    max-width: 100px; /* Adjust logo size as needed */
+  }
+

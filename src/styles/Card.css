@@ -1,0 +1,23 @@
+.card-1 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  }
+
+
+.card-1:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .card-1::after {
+    content: '';
+    position: absolute;
+    bottom: -20px; /* Adjust based on desired distance of reflection */
+    left: 0;
+    width: 100%;
+    height: 50px; /* Adjust based on size of reflection */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+    transform: scaleY(-1); /* Flip the gradient vertically */
+    opacity: 0.3; /* Adjust opacity of reflection */
+    z-index: -1; /* Ensure the reflection is below card content */
+    pointer-events: none; /* Prevent interaction with reflection */
+  }
