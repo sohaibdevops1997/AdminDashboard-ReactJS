@@ -11,7 +11,7 @@ import {
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import ThemeSwitcher from "./ThemeSwitcher";
+import ThemeSwitcher from "../theme/ThemeSwitcher";
 import logo from "../assets/logo.png";
 
 function NavBar() {

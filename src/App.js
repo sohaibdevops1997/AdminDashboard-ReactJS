@@ -6,13 +6,13 @@ import SSRProvider from 'react-bootstrap/SSRProvider';
 import 'typeface-roboto';
 
 import { Button } from 'react-bootstrap';
-import  NavBar  from './components/Navbar'
-import  MainBody  from './components/MainBody'
-import  Footer  from './components/Footer'
-import  Home  from './components/Home'
-import  Header  from './components/Header'
-import  Feature  from './components/Feature'
-import ThemeSwitcher from './components/ThemeSwitcher';
+import  NavBar  from './layouts/Navbar'
+import  MainBody  from './pages/MainBody'
+import  Footer  from './layouts/Footer'
+import  Home  from './pages/Home'
+import  Header  from './layouts/Header'
+import  Feature  from './pages/Feature'
+import ThemeSwitcher from './theme/ThemeSwitcher';
 
 function App() {
   return (
