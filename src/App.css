@@ -90,7 +90,7 @@
   --form-background: rgba(28, 37, 49, 1);
   --form-text-color: #dde5ed;
   --form-border-color: #27374D;
-  --form-button-background: #27374D;
+  --form-button-background: #8c939c;
   --form-button-text: #dde5ed;
   --form-placeholder-color: #dde5ed;
 
@@ -174,7 +174,7 @@ body {
 
 /* Button Styles */
 button {
-  background-color: var(--primary-color);
+  background-color: var(--form-button-background);
   color: var(--text-color);
   border: none;
   padding: 10px 20px;

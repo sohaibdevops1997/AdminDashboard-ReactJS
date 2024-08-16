@@ -13,7 +13,7 @@ import  Home  from './pages/Home'
 import  Header  from './layouts/Header'
 import  Feature  from './pages/Feature'
 import ThemeSwitcher from './theme/ThemeSwitcher';
-
+import GeneratePDF from './pages/GenerateReport'
 function App() {
   return (
 //     <div className="App">
@@ -36,6 +36,7 @@ function App() {
             <Route path="/" element={<MainBody />} />
             <Route path="/home" element={<Home />} />
             <Route path="/features" element={<Feature />} />
+            <Route path="/generatePDFReport" element={<GeneratePDF />} />
           </Routes>
         </main>
         <Footer />
